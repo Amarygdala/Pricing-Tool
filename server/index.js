@@ -10,7 +10,7 @@ const userRoutes = require('./routes/users.route');
 
 
 
-// Checks the environment of the server to look for the config settings to check for the correct port. If it doesn't exist, use 5000 instead. test
+// Checks the environment of the server to look for the config settings to check for the correct port. If it doesn't exist, use 5000 instead.
 const port = process.env.PORT || 5000;
 server.use(cors());
 server.use(express.json());
